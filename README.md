@@ -27,7 +27,7 @@ We built a login service using **Node.js** and **Express** which allows you to u
 
 Clone the repository:
 
-### `git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY`
+#### `git clone https://github.com/fedebrando/Forza4P2P
 
 and install the npm modules like you always do:
 
