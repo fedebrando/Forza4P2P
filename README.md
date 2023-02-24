@@ -25,7 +25,11 @@ We built a login service using **Node.js** and **Express** which allows you to u
 
 ## How to run
 
-Clone the repository, and install the npm modules like you always do:
+Clone the repository:
+
+### `git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY`
+
+and install the npm modules like you always do:
 
 #### `npm install`
 
