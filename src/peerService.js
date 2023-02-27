@@ -29,6 +29,7 @@ app.get('/peers', (req, res) => {
         }
         res.status(200).json(rows);
     });
+    dbConn.end();
 });
 
 app.get('/peer/:Username', (req, res) => {
@@ -48,6 +49,7 @@ app.get('/peer/:Username', (req, res) => {
         else
             res.status(200).json(rows[0]);
     });
+    dbConn.end();
 });
 
 app.post('/newPeer', (req, res) => {
@@ -70,6 +72,7 @@ app.post('/newPeer', (req, res) => {
         else
             res.sendStatus(500);
     });
+    dbConn.end();
 });
 
 app.listen(port, () => console.log(`Listening on port ${port}`))
