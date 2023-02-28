@@ -33,15 +33,15 @@ and install the npm modules like you always do:
 
 #### `npm install`
 
-At first, start PeerJs Server:
+At first, open a terminal in forza4 directory and start PeerJs Server:
 
-#### peerjs you --port 9000 --path /forza4srv 
+#### `peerjs you --port 9000 --path /forza4srv`
 
 Then, install and active MySql Server. 
 
 Run peerService.js with:
 
-### node ./peerService.js
+#### `node ./peerService.js`
 
 At the end, start the application:
 
